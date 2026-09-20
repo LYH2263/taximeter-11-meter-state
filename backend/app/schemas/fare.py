@@ -11,3 +11,10 @@ class CompareRequest(BaseModel):
     distance_km: float = Field(ge=0)
     slow_min: float = Field(ge=0)
     persist: bool = False
+
+class MeterStartRequest(BaseModel):
+    night: bool = False
+
+class MeterReadingRequest(BaseModel):
+    distance_km: float = Field(ge=0)
+    slow_min: float = Field(ge=0)

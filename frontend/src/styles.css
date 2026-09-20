@@ -14,3 +14,12 @@ th,td { border-bottom:1px solid #443820; padding:0.35rem; }
 .hero-num { font-size:2rem; color:var(--accent); font-weight:700; }
 input { background:#120e06; border:1px solid var(--muted); color:var(--text); padding:0.3rem; }
 a { color: var(--accent); }
+.badge { display:inline-block; padding:0.2rem 0.7rem; border-radius:999px; border:1px solid var(--muted); }
+.badge.running { background:var(--accent); border-color:var(--accent); color:#0d0a04; font-weight:700; }
+.badge.stopped { color:var(--accent); border-color:var(--accent); }
+.actions { display:flex; gap:0.5rem; margin-top:0.6rem; }
+button:disabled { opacity:0.4; cursor:not-allowed; }
+.err { color:#ff7a7a; }
+.ok { color:#8fd18f; margin-left:0.8rem; }
+.rowlink { cursor:pointer; }
+.breakdown td { color:var(--muted); }
